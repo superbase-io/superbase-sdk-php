@@ -1,0 +1,24 @@
+{
+    "name": "superbase-io/superbase-sdk-php",
+    "description": "SuperBase Backend-as-a-Service Client SDK for PHP",
+    "homepage": "http://www.github.com/superbase-io/superbase-sdk-php",
+    "keywords": ["php", "api", "cloud", "baas", "users"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@superbase.io",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "symfony/console": "2.6.*@dev",
+        "symfony/security": "2.6.*@dev",
+        "guzzlehttp/guzzle": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "SuperBaseSdk": "src/"
+        }
+    }
+}
